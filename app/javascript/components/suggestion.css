@@ -1,0 +1,29 @@
+.test-suggestion {
+  width: auto !important;
+  border: none;
+  border-radius: 4px;
+  overflow: scroll;
+  display: block;
+}
+
+.icon-ville {
+  height: 38px;
+}
+
+.tour-de-control {
+	height: 29px;
+	margin-right: 6px;
+}
+
+.line-suggestion {
+	display: flex;
+    align-items: center;
+    padding-left: 42px;
+    height: 50px;
+}
+
+.suggestion-text {
+	font-size: 17px;
+	line-height: 30px;
+	padding-top: 11px;
+}

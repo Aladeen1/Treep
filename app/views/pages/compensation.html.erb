@@ -1,0 +1,42 @@
+<div id='backToResearch'></div>
+<div id="title-target-redirection">
+	<div class="center__loader">
+        <img class="loader" src="https://res.cloudinary.com/tark-industries/image/upload/v1556034462/Spinner1.png">
+    </div>
+</div>
+
+<div id="back-to-research-bar" style="display:none;">
+	<div class="search__bar__container">
+		<%= render 'shared/searchbar' %>
+    </div>
+</div>
+
+<div class="flights__container" style="min-height: 0px;">
+ 	
+    
+</div>
+
+<div class="hide__form">
+	<%= form_tag flights_path, :class => 'compensation-only-skytreep' do %>
+	  
+	  <%= hidden_field_tag 'price'%>
+	  <%= hidden_field_tag 'ville_aller'%>
+	  <%= hidden_field_tag 'ville_retour'%>
+	  <%= hidden_field_tag 'date_aller'%>
+	  <%= hidden_field_tag 'date_retour'%>
+	  <%= hidden_field_tag 'distance'%>
+	  <%= hidden_field_tag 'co2'%>
+	  <%= hidden_field_tag 'status'%>
+	  <%= hidden_field_tag 'dette_eco'%>
+	  <%= hidden_field_tag 'skytreep_participation'%>
+
+	  
+	   <div class="compensation-continuer-research-div" >
+          <button type="submit" style="background-color: #36ACB8;">
+	  		Continuer vers votre dashboard
+	  	  </button>
+          <i class="fas fa-arrow-right"></i>
+          <p id="verser-uniquement"></p>
+       </div>
+	<% end %>
+</div>

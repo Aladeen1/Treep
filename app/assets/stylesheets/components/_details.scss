@@ -1,0 +1,284 @@
+
+.details {
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+
+  h3 {
+    font-size: 26px;
+  }
+}
+
+.flight__details__aller {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+
+.straight__details {
+  width: 100%;
+  padding: 10px;
+  border-top: solid 1px grey;
+}
+
+.big__info__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.straight__vertical {
+	transform: rotate(90deg);
+	background-color: grey;
+	width: 50px;
+	height: 0.5px;
+}
+
+.schedule__city__flightNumber {
+  width: 170px;
+  text-align: right;
+}
+
+.equipement__consommationC02__commission {
+  width: 170px;
+}
+
+.main__details__info__container {
+  display: flex;
+  justify-content: space-between;
+  width: 420px;
+  align-items: center;
+}
+
+.text__formatting__details {
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  width: 80px;
+  font-size: 16px;
+}
+
+.grey__details__text {
+  color: #838080;
+  font-size: 14px;
+}
+
+.tranche__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+} 
+
+.container__details__secondary {
+  width: 230px;
+}
+
+.second__tranche { 
+  width: 100%;
+  align-items: center;
+}
+
+.round__div {
+  width: 14px;
+  height: 14px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.details__straight__experiment {
+  height: 80px;
+  width: 1px;
+  background-color: black;
+}
+
+.details__straight__escale {
+  height: 45px;
+  border-left: 2px dotted;
+}
+  
+.first__row {
+  justify-content: flex-end;
+}
+
+.green__round {
+  border: 2px solid $green;
+}
+
+.red__round {
+  border: 2px solid #F12430;
+}
+
+.escale__tranche {
+  width: 100%;
+  align-items: center;
+}
+
+.escale__color {
+  color: #F12430;
+}
+
+.overall__details__container {
+  width: 230px;
+  margin: 0px 10px;
+  font-size: 16px;
+}
+
+.details__routes__container {
+  width: 510px;
+  display: flex;
+  justify-content: center;
+}
+
+.dette__ecologique__container {
+  width: 280px;
+  margin-left: 35px;
+
+  div {
+
+    p {
+      font-size: 17px;
+    }
+  }
+}
+
+.info__details__container {
+  margin: 15px;
+  margin-left: 0px;
+}
+
+.details__stats__disposition__div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.details__stats__text {
+  background-color: #00C896;
+  color: white;
+  font-family: $body-font;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  width: 103px;
+}
+
+.info__details__container__dette {
+  margin: 15px;
+  padding: 10px;
+  border: 1px grey solid;
+  box-shadow: 2px 2px 2px grey;
+
+}
+
+.dette__infographie__container {
+  display: flex;
+  color: white;
+  height: 45px;
+  margin-top: 10px;
+
+}
+
+.dette__infographie__skyparticipation {
+  background-color: $blue;
+  border-radius: 3px 0px 0px 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dette__infographie__reste {
+  background-color: $green;
+  border-radius: 0px 3px 3px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details__anchor {
+  position: relative;
+}
+
+.details__airport__code__up {
+  position: absolute;
+  top: 20px;
+}
+
+
+.dette__infographie__skyparticipation__preview {
+  background-color: $blue;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.dette__infographie__reste__preview {
+  background-color: #24cbde;
+  opacity: 0.4;
+}
+
+.dette__infographie__container__front {
+  min-width: 170px;
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    div {
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      p {
+        color: white;
+        font-size: 17px;
+        line-height: 17px;
+      }
+    }
+  }
+}
+
+.dette__infographie__center__image {
+  width: 42px;
+  position: relative;
+
+  img {
+    position: absolute;
+    bottom: 12px;
+  }
+}
+
+.dette__infographie__large__container {
+  display: flex;
+}
+
+.dette__infographie__pourcentage__preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $green;
+  width: 57px;
+
+
+  p {
+    padding: 6px;
+    color: white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+#slider__compensation {  
+	width: 650px;
+	margin: auto 0px;
+	background-color: #E8EEF2;
+    position: relative;
+}
+
+.slider__compensation__container {
+  display: flex;
+}
+
+#slider__compensation .noUi-handle:before {
+	text-align: center;
+    width: 80px;
+    height: 25px;
+    position: absolute;
+    top: -26px;
+    left: -22px;
+    background-color: transparent;
+    color: black;
+    content: attr(data-value);
+    font-size: 16px;
+}
+
+#slider__compensation .noUi-handle:focus {
+	outline: none;
+}
+
+#slider__compensation .noUi-handle {
+	border-radius: 50%;
+	height: 32px;
+	width: 32px;
+	background-color: #00C896;
+    border: none;
+    box-shadow: none;
+} 
+
+#slider__compensation .noUi-handle:hover {
+    background-color: #2DE1B4;
+}
+
+#trigger-payment:hover {
+    background-color: #2DE1B4;
+}
+
+#slider__compensation .noUi-horizontal {
+    height: 14px;
+}
+
+#slider__compensation .noUi-base .noUi-origin .noUi-handle {
+    top: -10px;
+}

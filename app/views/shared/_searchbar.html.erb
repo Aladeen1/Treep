@@ -1,0 +1,40 @@
+<div class="choix3">
+
+</div>
+
+<div class="search__bar__element__container">
+    <div class="search__bar__options">
+        <div class="aller-retour">
+            <select id="flight_type">
+                <option value="round">Aller retour</option>
+                <option value="oneway">Aller simple</option>
+            </select>
+        </div>
+
+
+        <p class="passager__description">Passagers</p>
+        <div class="passager">
+            <div class="value-button" id="decrease"  value="Decrease Value"><p>-</p></div>
+                <input type="number" id="passengers" min="1" max="9" value="1" />
+            <div class="value-button" id="increase"  value="Increase Value"><p>+</p></div>
+        </div>
+    </div>
+    <div class="search__bar__frame">
+        <form class="search">
+            <div class="search__bar__box">
+                <input type="text" class="search__field left-element" id="departLoc__search" autocomplete="off" placeholder="Partir de" list="airports__depart">
+                <input type="text" class="search__field right-element" id="returnLoc__search" autocomplete="off" placeholder="Aller à" list="airports__return">
+            </div>
+            <div class="search__bar__box">
+                <input type="text" class="search__field left-element" id="departDate__search" placeholder="Aller le">
+                <input type="text" class="search__field right-element" id="returnDate__search" placeholder="Retour le">
+            </div>
+            <button class="checkout__button blue">
+                Rechercher
+            </button>
+        </form>
+    </div>
+</div>
+
+
+

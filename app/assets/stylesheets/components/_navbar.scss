@@ -1,77 +1,163 @@
-/* Main navbar */
-.navbar-wagon {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
-  transition: all 0.3s ease;
-  height: 70px;
-  padding: 0px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+body {
+  margin: 0px;
 }
 
-/* Logo */
-.navbar-wagon-brand img {
-  height: 50px;
+ul {
+  list-style: none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
-/* User Avatar */
-.navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
+ul li, ul li li {
+  display: inline-block;
 }
 
-/* Right section */
-.navbar-wagon-right {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+ul .li-before {
+  padding-right: 1.6vw;
+  padding-left: 1.6vw;
 }
 
-/* Basic navbar item */
-.navbar-wagon-item {
-  cursor: pointer;
-  padding: 0 20px;
-}
-
-/* Navbar link */
-.navbar-wagon-link {
-  color: #616668;
+li a {
+  padding-left: 5px;
+  color: white;
+  font-family: $body-font;
+  font-weight: 300;
   font-size: 14px;
-}
-.navbar-wagon-link:hover {
-  color: #da552f;
   text-decoration: none;
 }
 
-/* Dropdown menu */
-.navbar-wagon-dropdown-menu {
-  margin-top: 15px;
-  box-shadow: 1px 1px 4px #E6E6E6;
-  border-color: #E6E6E6;
-}
-.navbar-wagon-dropdown-menu li > a {
-  transition: color 0.3s ease;
-  font-weight: lighter !important;
-  color: #999999 !important;
-  font-size: 15px !important;
-  line-height: 22px !important;
-  padding: 10px 20px;
-}
-.navbar-wagon-dropdown-menu li > a:hover {
-  background: transparent !important;
+.apropos-drop a {
   color: black !important;
 }
-.navbar-wagon-dropdown-menu:before {
-  content: ' ';
-  height: 10px;
-  width: 10px;
-  position: absolute;
-  right: 10px;
-  top: -6px;
-  background-color: white;
-  transform: rotate(45deg);
-  border-left: 1px solid #E6E6E6;
-  border-top: 1px solid #E6E6E6;
+
+.liste-navbar i {
+  color: rgb(27, 105, 166);
 }
+
+.liste-navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo-nav1 {
+  height: 0px;
+}
+
+.logo-nav1 img {
+  width: 200px;
+  margin-right: 8vw;
+  margin-top: -75px;
+  margin-left: 5vw;
+}
+
+.fr-flag {
+  width: 20px;
+}
+
+/*------------- menu drop down------------ */
+
+.navba-propos {
+  background-color: transparent !important;
+  border: none;
+  font-size: 14px;
+}
+
+
+
+  /*  * * * * * * * * * * *
+      *  MEDIA   QUERIES  *
+      * * * * * * * * * * *   */
+
+
+
+@media only screen and (max-width: 1132px) {
+  ul .li-before {
+  padding-right: 0.7vw;
+  padding-left: 0.7vw;
+  }
+}
+
+.beta-call-icons {
+  
+  display: flex;
+  position: absolute;
+  bottom: -41px;
+  right: -155px;
+  z-index: 10;
+  background-color: transparent;
+
+  p {
+    font-size: 18px;
+    font-family: $body-font;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 2px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  
+  .beta-icon {
+    background: linear-gradient(241.27deg, #D2D300 2.73%, #F3F400 100%);
+    margin-right: 7px;
+    width: 90px;
+  }
+  
+  .call-icon {
+    width: 170px;
+    margin-left: 7px;
+    background: linear-gradient(226.97deg, #D30000 2.73%, #D21436 100%);
+    color: white;
+    cursor: pointer;
+  }
+  
+}
+
+.logo-navbar-component {
+
+  img {
+    width: 200px;
+    margin-top: 2px;
+    margin-left: 100px;
+  }
+}
+
+.navbar-component-container {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  width: 83%;
+}
+
+
+.navbar-component-main-container {
+  background: linear-gradient(80.21deg, #00C896 0%, #03AA80 10.23%, #01AD82 22.85%, #00C896 54.58%, #00C896 85.89%, #02B88A 100%), #C4C4C4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

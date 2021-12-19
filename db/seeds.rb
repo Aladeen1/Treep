@@ -5,3 +5,44 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+require 'faker'
+
+Flight.destroy_all
+User.destroy_all
+Question.destroy_all
+
+
+puts 'seeding starts'
+
+10.times do
+
+  user = User.create(
+    email: Faker::Internet.email,
+    first_name: Faker::Name.first_name,
+    last_name: Faker::Name.last_name,
+    password: 123456,
+    password_confirmation: 123456,
+    trees: rand(1..1_000)
+    )
+
+  rand(1..4).times do
+    flight = Flight.new(
+    price: rand(300..700),
+    ville_aller: Faker::Games::Pokemon.name,
+    ville_retour: Faker::Games::Pokemon.name,
+    date_aller: Faker::Date.forward(7),
+    date_retour: Faker::Date.forward(23),
+    distance: rand(1_000..3_000),
+    co2: rand(500..1_000),
+    user_id: user.id,
+    status: ""
+    )
+    
+    flight.save!
+
+  end
+end
+
+puts 'done seeding'

@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- BOOTSTRAP LINK -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- BOOTSTRAP LINK -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>TODO</title>
+    <title>Skytree'p</title>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
-    <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    <%= stylesheet_pack_tag 'application', media: 'all' %>
   </head>
   <body>
+
+    <%= render 'shared/navbar' if @search_nav %>
+    <!-- if @search_nav permet de render la navbar uniquement dans les controllers qui ont @search_nav = true -->
+    <%= render 'shared/flashes' %>
+    <div class='frame'>
     <%= yield %>
+    <div>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
+
+    <%= render 'shared/footer' if @footer1 %>
+    <%= render 'shared/footer2' if @footer2 %>
+    <%= render 'shared/nophone' %>
+
   </body>
 </html>

@@ -1,0 +1,299 @@
+.background-dash {
+  position: absolute;
+}
+
+.background-dash img {
+  width: 100%;
+}
+
+.compteur-arbres-dash {
+  position: absolute;
+  top: 114px;
+  left: 23px;
+  background-image: url(https://res.cloudinary.com/tark-industries/image/upload/v1553192196/ovale_arbre.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 145px;
+  height: 65px;
+}
+
+.compteur-arbres-dash img {
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  width: 50px;
+}
+
+.compteur-arbres-dash h3 {
+  position: absolute;
+  top: -9px;
+  left: 60px;
+}
+
+/* FIN DU CADRE */
+
+
+/* DEBUT DU MENU CENTRAL */
+
+.avatar-dash {
+  width: 120px;
+}
+
+.dashboard-direction {
+  transform: rotate(90deg);
+  margin-top: 5px;
+}
+
+
+.fa-leaf:before {
+  color:green;
+}
+
+.no-border {
+  border:none
+}
+
+.dashboard-presentation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 315px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.dashboard-boss-container{
+  min-height:100vh;
+}
+
+
+.categories-block {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.hello-dash {
+  text-align: center;
+}
+
+.menu-dash .onglet1, .menu-dash .onglet2 {
+  border-top: 1px solid gray;
+}
+.menu-dash .onglet1:hover, .menu-dash .onglet2:hover {
+  background-color: rgb(242,250,251);
+}
+
+.menu-dash .onglet2 {
+  border-bottom: 1px solid gray;
+}
+
+
+.onglet-item {
+  display: inline-block;
+}
+
+.menu-dash h5 {
+  margin-left: 10px;
+}
+
+.menu-dash img {
+  width: 9px;
+  float: right;
+  padding-top: 14px;
+}
+
+/* FIN DU MENU CENTRAL */
+
+
+/* DEBUT DU MENU INFO */
+
+
+.menu-info-dash {
+  padding-top: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sous-menu-info-dash {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.info-item1 {
+  text-align: right;
+}
+
+.info-item3 {
+  color: rgb(54,172,184);
+}
+
+.delete-account {
+  color: rgb(54,172,184);
+  border-top: 1px solid gray;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+/* FIN DU MENU INFO */
+
+
+/* DEBUT DU MENU VOYAGE */
+
+.voyage-card img {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+}
+
+/* debut du test */
+
+.voyage-card-container {
+  margin: 20px;
+  color: white;
+
+  p {
+    text-align: center;
+  }
+}
+
+.flights-user {
+}
+
+.voyage-card-subsection {
+  height: 230px;
+  width: 280px;
+}
+
+.upper {
+  background-image: url("https://res.cloudinary.com/tark-industries/image/upload/v1557911959/background-dashboard-card.jpg");
+  background-size: cover;
+  position: relative;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.lower {
+  background: linear-gradient(180deg, #00C896 0%, #3AA8B4 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 6px 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.villes{
+  p {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+}
+
+.dashboard-card-layer {
+  background-color: rgba(118, 112, 112, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 6px 6px 0px 0px;
+}
+
+
+.dashboard-date-container {
+  margin: 0px auto;
+  background-color: #ffffff;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    text-align: left;
+    margin: 3px;
+    color: black;
+    font-size: 17px;
+  }
+}
+
+.dashboard-date-title {
+  width: 60px;
+}
+
+.upper-date {
+  border-radius: 6px 6px 0px 0px;
+  border-bottom: solid 1px black;
+}
+
+.lower-date {
+  border-radius: 0px 0px 6px 6px;
+}
+
+
+
+.dashboard-slider-container {
+  background-color: aqua;
+  margin: 0px auto;
+  width: 80%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+
+#dashboard-sliderAnchor {
+  width: 100%;
+}
+
+/* end of test */
+
+
+
+
+
+/* Code for real */
+
+.travel-card-container {
+  width: 250px;
+}
+
+.travel-card-upper-part {
+  height: 150px;
+}
+
+.travel-card-lower-part {
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

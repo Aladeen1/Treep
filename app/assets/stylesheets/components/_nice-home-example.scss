@@ -1,0 +1,244 @@
+.home-example-main-container {
+
+
+	select {
+	    text-indent: 1px;
+	    text-overflow: '';
+	    text-align-last: center;
+	    height: 50px;
+    	width: 120px;
+      font-size: 15px;
+	    border: 1px solid #E0E0E0;
+	    background-color: #F4F4F4;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: rgba(171, 181, 169, 0.7)
+      }
+  }
+
+  select::-ms-expand {
+      display: none;
+  }
+
+
+}
+
+.home-example-title-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+  h4 {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 35px;
+  }
+}
+
+.home-example-etape-container {
+	padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+
+.home-example-section-container {
+  width: 1000px;
+  position: relative;
+  display:flex;
+  justify-content:center;
+  margin: 20px 40px;
+}
+
+.home-example-plane-icon {
+  height: 45px;
+  margin: 0px 20px;
+}
+
+.etape-number {
+  background-color: black;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    color: white;
+    margin-right: 20px;
+    font-size: 23px;
+}
+
+.treep-number-positioning {
+  display: flex;
+    position: absolute;
+    bottom: 33px;
+    left: 60px;
+
+    p {
+      position: absolute;
+      top: 27px;
+      left: 5px;
+      font-size: 23px;
+      font-family: Alegreya Sans SC;
+      font-weight: bold;
+    }
+}
+
+.user-number-positioning {
+  display: flex;
+    position: absolute;
+    bottom: 33px;
+    right: 260px;
+
+    p {
+      position: absolute;
+      top: 27px;
+      left: -2px;
+      font-size: 23px;
+      font-family: Alegreya Sans SC;
+      font-weight: bold;
+    }
+}
+
+.square__arbres__plantes {
+    border: 2px solid;
+    height: 20px;
+    border-bottom: none;
+}
+
+.home-skytreep-share {
+  margin-top: 15px;
+  width: 24%;
+
+  p {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+.home-user-share {
+    width: 69%;
+    position: absolute;
+    top: 33px;
+    right: 25px;
+
+    p {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+
+.slider-title-text {
+  width: 150px;
+  text-align: right;
+  position: absolute;
+  left: -70px;
+  bottom: 15px;
+  font-size: 21px;
+}
+
+
+.double-div {
+	align-items: flex-end;
+	margin-top: 40px;
+}
+
+.home-example-etape-title {
+  width: 660px;
+  display: flex;
+  align-items: center;
+}
+
+.etape-text {
+  width: 600px;
+  font-size: 22px;
+}
+
+.last-etape {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 75px;
+	width: 680px;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+.go-button-home {
+  width: 260px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    height: 50px;
+}
+
+.fly-way-style {
+  width: 52%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 6px;
+}
+
+.fly-way-tube {
+    height: 4px;
+    width: 23px;
+    border-radius: 19px;
+    background-color: #C4C4C4;
+}
+
+.slider-main-infos {
+  width: 750px;
+  height: 147px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position:relative;
+
+  div {
+  	display: flex;
+  	align-items: flex-end;
+  }
+}
+
+.le-vrai-pouvoir-all-container {
+	h3 {
+		text-align: center;
+		margin-top: 40x;
+	}
+}
+
+.le-vrai-pouvoir-div-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 40px auto;
+  max-width: 1200px;
+}
+
+.le-vrai-pouvoir-div {
+	width: 340px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+
+    img {
+    	width: 340px;
+    }
+
+    h4 {
+    	text-align: center;
+    	margin-top: 25px;
+    	margin-bottom: 40px;
+	}
+
+    p {
+    	text-align: justify;
+    	padding: 0px 26px;
+    	margin-bottom: 15px;
+    }
+}
+

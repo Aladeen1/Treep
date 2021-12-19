@@ -1,1 +1,151 @@
-// Specific CSS for your home-page
+body, html {
+  overflow-x: hidden;
+}
+
+
+
+
+#section1 {
+  background-image: url('https://res.cloudinary.com/tark-industries/image/upload/v1556390166/Ballon_ombre.png');
+  background-size: auto 700px;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.slogan h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  margin: 0px;
+  color: white;
+  padding-left: 13vw;
+  padding-top: 142px;
+  margin-bottom: 20px;
+  /* text-shadow: .9px .9px grey; */
+}
+
+.compteur-arbres {
+  text-align: center;
+  padding-top: 190px;
+}
+
+.compteur-arbres h2 {
+  color: $green;
+  padding-bottom: 10px;
+}
+
+.compteur-arbres img {
+  width: 50px;
+  padding-top: 7px;
+}
+
+.foret-fin-section1 img {
+  width: 100%;
+}
+
+/* --------Section explications------LOGO--------- */
+
+
+.logo-homex img {
+  width: 23%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: -50px;
+}
+
+.logo-homex h4 {
+  text-align: center;
+  margin-top: -20px;
+  padding-bottom: 60px;
+  font-family: $body-font;
+  font-size: 1.6vw;
+}
+
+/* --------Section explications----HOMEX1----------- */
+
+.dot1 {
+  text-align: right;
+  margin-top: 23px;
+}
+
+.text_homex1 h4 {
+  font-size: 2vw;
+  color: black;
+  font-family: $body-font;
+  padding-bottom: 35px;
+}
+
+.destinationA {
+  margin-left: -75px;
+  padding-top: 4px;
+  padding-right: 15px;
+  padding-left : 15px;
+  padding-bottom: 4px;
+  background: #F4F4F4;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 9px;
+  text-align: center;
+}
+
+.destinationA h5 {
+  font-family: Alegreya Sans SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.planes-homex img {
+  width: 40px;
+  padding-top: 4px;
+}
+
+.plane2-homex img {
+  margin-left: -325px;
+}
+
+
+.svg-homex {
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+ul#horizontal-list-homex {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+  margin-left: -140px;
+  }
+  ul#horizontal-list-homex li {
+    display: inline;
+    padding-right: 1vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

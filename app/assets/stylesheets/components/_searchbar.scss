@@ -1,0 +1,166 @@
+.title {
+  text-align: center;
+  margin: 60px 0px;
+}
+
+.search {
+  display: flex;
+  text-align: center;
+  margin-bottom: 75px;
+  padding: 13px;
+}
+
+.search ul {
+  padding: 0px;
+}
+
+.search__field1 {
+  width: 170px;
+  margin-left: 35px;
+}
+
+.search__field2 {
+  width: 170px;
+  margin-left: 35px;
+}
+
+.search__field3 {
+  width: 200px;
+}
+
+.border-form {
+  background: linear-gradient(98.46deg, #00C896 0%, #03AA80 5.73%, #01AD82 23.48%, #00C896 45.3%, #00C896 71.29%, #02B88A 83%), #C4C4C4;
+  margin-left: 13vw;
+  width: 990px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.allez-retour {
+  position: absolute;
+  top: -30px;
+  left: 5px;
+  color: white;
+}
+
+.search select {
+  background-color: transparent;
+  border: none;
+}
+
+.passager input {
+  position: absolute;
+  top: -31px;
+  left: 210px;
+  background-color: transparent;
+  color: white;
+}
+
+.passager p {
+  position: absolute;
+  top: -30px;
+  left: 135px;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+.search .passager input::placeholder {
+  color: white;
+  font-size: 21px;
+}
+
+.square1 {
+  position: absolute;
+  top: 13px;
+  left: 14.5px;
+  width: 36px;
+  height: 39px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.square2 {
+  position: absolute;
+  top: 13px;
+  left: 230px;
+  width: 36px;
+  height: 39px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.fa-plane-departure {
+  position: absolute;
+  top: 24px;
+  left: 23px;
+  z-index: 3;
+}
+
+.fa-plane-arrival {
+  position: absolute;
+  top: 24px;
+  left: 235px;
+  z-index: 3;
+}
+
+.search input {
+  margin-right: 10px;
+  border: none;
+  border-radius: 2px;
+}
+
+.border-form button {
+  background-color: $blue;
+}
+
+.border-form button span {
+  color: white;
+}
+
+
+  /*  * * * * * * * * * * *
+      *  MEDIA   QUERIES  *
+      * * * * * * * * * * *   */
+
+
+
+
+@media only screen and (max-width: 1145px) {
+  .search__field {
+    width: 150px;
+  }
+  .border-form {
+  background-color: $green;
+  margin-left: 13vw;
+  width: 850px;
+  border-radius: 5px;
+  position: relative;
+  }
+  .square2 {
+  left: 208px;
+  }
+  .fa-plane-arrival {
+  position: absolute;
+  top: 24px;
+  left: 215px;
+  z-index: 3;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
