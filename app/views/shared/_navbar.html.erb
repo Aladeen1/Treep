@@ -3,16 +3,16 @@
   <div class="rectangle-navbar navbar-component-container">
 
     <div class="logo-navbar-component">
-        <a href="https://www.skytreep.fr">
+        <%= link_to root_path do %>
           <img src="https://res.cloudinary.com/tark-industries/image/upload/v1556623705/LOGO_SKYTREE_P_blanc.png">
-        </a>
+        <% end %>
     </div>
 
     <ul class="liste-navbar">
 
       <li class="li-before">
        <li><i class="fas fa-plane"></i></li>
-       <li><%= link_to 'Vols', search_path %></a></li>
+       <li><%= link_to 'Vols', search_path %></li>
      </li>
 
 
