@@ -13,7 +13,7 @@ export const elements = {
     searchContainer: document.querySelector('.flights__container')
 };
 
-export const proxy = 'https://cors-anywhere.herokuapp.com/';
+export const proxy = 'https://fierce-earth-82175.herokuapp.com/';
 export const search = document.getElementById('searchPage');
 export const home = document.getElementById('home');
 export const compensation = document.getElementById('backToResearch');

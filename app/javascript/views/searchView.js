@@ -33,7 +33,7 @@ export const populateSearchFields = () => {
   setInput('searchDepartDateFrom', input.date_aller);
   setInput('searchFlightType', input.flight_type);
   setInput('searchPassengers', input.passengers);
-  if (input.flight_type === 'round') {
+  if (input.flight_type === 'oneway') {
     setInput('searchReturnDateFrom', input.date_retour);
     elements.searchFlightType.children[0].setAttribute('selected', 'selected');
     handleFieldTransition(elements.searchFlightType.value);

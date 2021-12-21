@@ -18,6 +18,7 @@ flatpickr("#returnDate__search", {
 });
 
 if (elements.searchFlightType) {
+  handleFieldTransition("oneway");
 	elements.searchFlightType.addEventListener('change', event => {
     	handleFieldTransition(event.target.value);
     })

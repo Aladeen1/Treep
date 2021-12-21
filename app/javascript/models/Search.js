@@ -27,10 +27,11 @@ export default class Search {
       let res;
       if (this.flightType === 'oneway') {
         console.log('Oneway call lauching')
-        res = axios(`${proxy}https://api.skypicker.com/flights?flyFrom=${this.departLoc}&to=${this.returnLoc}&dateFrom=${this.departureDateFrom}&dateTo=${this.departureDateTo}&flight_type=${this.flightType}&adults=${this.passengers}&limit=20&partner=picky`);
+        res = axios(`${proxy}https://api.skypicker.com/flights?fly_from=${this.departLoc}&fly_to=${this.returnLoc}&date_from=${this.departureDateFrom}&date_to=${this.departureDateTo}&flight_type=${this.flightType}&adults=${this.passengers}&limit=20&partner=skytreepskytreep`);
       } else if (this.flightType === 'round') {
+        // Round way flight is deprecated as per Kiwi API
         console.log('Round way call lauching')
-        res = axios(`${proxy}https://api.skypicker.com/flights?flyFrom=${this.departLoc}&to=${this.returnLoc}&dateFrom=${this.departureDateFrom}&dateTo=${this.departureDateTo}&return_from=${this.returnDateFrom}&return_to=${this.returnDateTo}&flight_type=${this.flightType}&adults=${this.passengers}&limit=20&partner=picky`);        
+        res = axios(`${proxy}https://api.skypicker.com/flights?fly_from=${this.departLoc}&fly_from=${this.returnLoc}&date_from=${this.departureDateFrom}&date_to=${this.departureDateTo}&return_from=${this.returnDateFrom}&return_to=${this.returnDateTo}&flight_type=${this.flightType}&adults=${this.passengers}&limit=20&partner=skytreepskytreep`);        
       } 
       res.then((flights) => {
         const realFlights = addRelevantData(flights);
@@ -53,7 +54,7 @@ export default class Search {
     }
 }
 
-//const res = await axios(`${proxy}https://api.skypicker.com/flights?flyFrom=PRG&to=LGW&dateFrom=02/02/2019&dateTo=05/02/2019&partner=picky`);
+//const res = await axios(`${proxy}https://api.skypicker.com/flights?fly_from=PRG&fly_to=LGW&date_from=02/02/2022&date_to=05/02/2022&partner=picky`);
 
 // max_fly_duration
 // price_from
@@ -72,7 +73,7 @@ export default class Search {
 
 
 // else if (this.flightType === 'oneway' && (document.getElementById('loaded') != null) ) {
-//   res = axios(`${proxy}https://api.skypicker.com/flights?flyFrom=${this.departLoc}&to=${this.returnLoc}&dateFrom=${this.departureDateFrom}&dateTo=${this.departureDateTo}&flight_type=${this.flightType}&adults=${this.passengers}&max_fly_duration=${maxDuration}&price_from=${minPrice}&price_to=${maxPrice}&dtime_from=${dtimeFrom}&dtime_to=${dtimeTo}&atime_from=${atimeFrom}&atime_to=${atimeTo}&limit=20&partner=picky`);
+//   res = axios(`${proxy}https://api.skypicker.com/flights?flyFrom=${this.departLoc}&to=${this.returnLoc}&dateFrom=${this.departureDateFrom}&dateTo=${this.departureDateTo}&flight_type=${this.flightType}&adults=${this.passengers}&max_fly_duration=${maxDuration}&price_from=${minPrice}&price_to=${maxPrice}&dtime_from=${dtimeFrom}&dtime_to=${dtimeTo}&atime_from=${atimeFrom}&atime_to=${atimeTo}&limit=20&partner=skytreepskytreep`);
 // }
 
 // else if (this.flightType === 'round' && (document.getElementById('loaded') != null) ) {
